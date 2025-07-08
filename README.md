@@ -6,6 +6,11 @@ Dashboard criado como projeto final para a conclusão da Eletiva de BI e LGPD na
 ### Ferramentas Usadas:
 Excel e PowerBI
 
+### Criação da Coluna Ratings
+Utilizando fórmula DAX, criei uma coluna adicional no database chamada Ratings para melhorar a vizualização do usuário acerca das avaliações dos clientes.
+
+Fórmula --> Ratings = IF(fVendas[Rating] <= 5, "Ruim", IF(fVendas[Rating] <= 7 ,"Regular", "Excelente"))
+
 ### Dashboard
 ![DashBoardMyanmar](https://github.com/user-attachments/assets/55e68fd5-ba66-46a9-860a-22d5d5ed0b13)
 
